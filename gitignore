@@ -1,0 +1,10 @@
+# Local variable files - keep off GitHub
+terraform.tfvars
+
+# Terraform state files - never commit these
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
