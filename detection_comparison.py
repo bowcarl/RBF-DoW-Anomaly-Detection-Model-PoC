@@ -56,10 +56,10 @@ _jrng     = np.random.RandomState(BASE_SEED)   # fixed jitter seed
 
 # ── File paths ────────────────────────────────────────────────────────────────
 DATASETS = {
-    'Continual\nInconsp.': r"C:\Users\carlp\Downloads\fingerprint_dataset(7).csv",
+    'Continual\nInconsp.': r"C:\Users\carlp\Downloads\slow_leech.csv",
     'Geometric\nEscal.':   r"C:\Users\carlp\Downloads\geometric_attack.csv",
     'Blast\nDDoW':         r"C:\Users\carlp\Downloads\blast_attack.csv",
-    'Random\nRate':        r"C:\Users\carlp\Downloads\fingerprint_dataset(8).csv",
+    'Random\nRate':        r"C:\Users\carlp\Downloads\random_rate.csv",
 }
 BASELINE_CSV = r"C:\Users\carlp\Downloads\normal_new.csv"
 MODEL_PATH   = r"C:\Users\carlp\isolation_forest_baseline.pkl"
