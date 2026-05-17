@@ -15,7 +15,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 df_fp  = pd.read_csv(r"C:\Users\carlp\Downloads\random_rate.csv") # Switch bettween leech_attack.csv and mitigation_log.csv (to see the other results)
 df_mit = pd.read_csv(r"C:\Users\carlp\Downloads\mitigation_log(1).csv")
 
-df_fp['totalEstimatedCost'] = df_fp['totalEstimatedCost'].astype(float) * 1000 # Multiplied with 1000, only for this dataset to get price per GB seconds and not mer MS
+df_fp['totalEstimatedCost'] = df_fp['totalEstimatedCost'].astype(float) * 1000 # Multiplied with 1000, only for this dataset to get price per GB seconds and not per MS
 
 
 df_fp = df_fp.sort_values('windowStart').reset_index(drop=True)
