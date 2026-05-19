@@ -1,6 +1,6 @@
-# RBF-DoW Anomaly Detection Model - PoC
+# RBF-DoW Anomaly Detection and Mitigation Model - PoC
 
-A Proof of Concept for detecting Denial-of-Wallet (DoW) attacks using anomaly detection with machine learning (RBF/scikit-learn) on AWS serverless infrastructure.
+A Proof of Concept for detecting and mitigating Denial-of-Wallet (DoW) attacks using anomaly detection with machine learning (RBF/scikit-learn) on AWS serverless infrastructure.
 
 ## Overview
 
